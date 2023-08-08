@@ -20,7 +20,7 @@ with open("Codes.txt", "w", encoding='utf-8') as file:
 
     print(f"Generated {num} codes\n")
 
-with open("Nitro Codes.txt") as file:
+with open("Codes.txt") as file:
     for line in file.readlines():
         nitro = line.strip("\n")
 
